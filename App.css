@@ -37,3 +37,27 @@
     transition:.5s ease-in;
     border:2px solid rgb(87, 35, 198);
 }
+
+.title>img{
+    width:100px;
+    padding: 10px;
+}
+
+.headerNav{
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.headerNav > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerNav>ul>a>li{
+    padding: 20px;
+    font-size: x-large;
+}
